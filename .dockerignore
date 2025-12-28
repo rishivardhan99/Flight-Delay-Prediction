@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (VERY IMPORTANT)
+data/
+*.csv
+*.json
+*.parquet
+
+# Large artifacts
+*.joblib.bak
+*.pkl.bak
+
+# Environments
+.env
+.venv
+venv/
+conda/
+anaconda/
+Anaconda3/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Not needed for runtime
+notebooks/
+reports/
+outputs/
